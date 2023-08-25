@@ -1,0 +1,35 @@
+:root {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    max-width: 1920px; //! variable ou autre (réfléchir)
+    margin: 0 auto;
+    padding: 2rem 10rem;
+    text-align: center
+}
+
+body {
+    line-height: 1;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
