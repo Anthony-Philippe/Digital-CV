@@ -1,0 +1,13 @@
+@import '../abstracts/variables';
+
+:root {
+    background: $dark-color__first;
+    color: $font-color__first;
+}
+
+#root {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 2rem 10rem;
+    text-align: center
+}

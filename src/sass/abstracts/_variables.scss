@@ -1,0 +1,35 @@
+$main-color__first: #8739F9;
+$main-color__second: #C651CD;
+$main-color__third: #363636;
+
+$dark-color__first: #100F10;
+$dark-color__second: #1B1B1B;
+$dark-color__third: #242424;
+
+$font-color__first: rgba(#fff, 0.96);
+$font-color__second: rgba(#fff, 0.67);
+$font-color__third: rgba(#fff, 0.45);
+
+$lengths: (
+  small: (0.375rem, 0.625rem, 0.875rem),
+  medium: (1rem, 1.375rem, 1.75rem),
+  large: (2.5rem, 3.5rem, 4.5rem)
+);
+
+@each $size, $values in $lengths {
+  $first: nth($values, 1);
+  $second: nth($values, 2);
+  $third: nth($values, 3);
+  
+  .text-#{$size}-first {
+    font-size: $first;
+  }
+  
+  .text-#{$size}-second {
+    font-size: $second;
+  }
+  
+  .text-#{$size}-third {
+    font-size: $third;
+  }
+}

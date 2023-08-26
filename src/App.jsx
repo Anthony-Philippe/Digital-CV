@@ -1,9 +1,11 @@
 import './sass/app.scss'
 
+import Home from './pages/home'
+
 function App() {
     return (
         <>
-            <p>App</p>
+            <Home />
         </>
     );
   }
