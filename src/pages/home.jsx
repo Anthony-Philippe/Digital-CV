@@ -1,9 +1,9 @@
-import navbar from '../components/navbar';
+import Navbar from '../layouts/navbar';
 
-export default function Cv() {
+export default function Home() {
     return (
         <>
-            <h1>hhhh</h1>
+            <Navbar />
         </>
-    )
-}
+    );
+};
