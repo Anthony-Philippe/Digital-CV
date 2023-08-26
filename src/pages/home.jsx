@@ -1,7 +1,9 @@
-export default function Home() {
+import navbar from '../components/navbar';
+
+export default function Cv() {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <h1>hhhh</h1>
+        </>
     )
 }
