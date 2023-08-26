@@ -1,9 +1,10 @@
-function Index() {
-  return (
-    <>
-        <p>Index</p>
-    </>
-  );
-}
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-export default Index;
+import App from './App'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
