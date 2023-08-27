@@ -19,19 +19,18 @@ export default function Footer() {
     );
 
     return (
-      <footer>
-        <section>
-          <img src={icon} alt="Icon" />
-          <p>DindonDesAlpes</p>
+        <footer>
+            <section>
+                <img src={icon} alt="Icon" />
+                <p>DindonDesAlpes</p>
+            </section>
+            <section>
+                {socialLinks.map((link, index) => (
+                <SocialLink key={index} href={link.href}>
+                    {link.icon}
+                </SocialLink>
+                ))}
         </section>
-        <section>
-          {socialLinks.map((link, index) => (
-            <SocialLink key={index} href={link.href}>
-              {link.icon}
-            </SocialLink>
-          ))}
-        </section>
-      </footer>
-    )
-  }
-  
+        </footer>
+    );
+}
