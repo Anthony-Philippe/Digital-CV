@@ -1,17 +1,12 @@
 @import "../abstracts/error";
-
-
-nav * {
-    @include debug('outline', red);
-}
+@import '../abstracts/_variables';
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 0;
-    @include debug('background', green);
-  
+
     ul {
       display: flex
     }
@@ -32,8 +27,19 @@ nav {
           cursor: pointer;
           border-radius: 2px;
           background: none;
-          color: white;
+          color: $font-color__second;
           transition: background-color .25s, color .25s
+        }
+        &:last-child {
+          > button {
+            background-color: $main-color__first
+          }
+          > button:hover {
+            background-color: $main-color__second
+          }
+        }
+        > button:hover {
+          color: $font-color__first
         }
       }
     }
