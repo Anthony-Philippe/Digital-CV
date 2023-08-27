@@ -1,13 +1,17 @@
+import '../sass/components/navbar.scss'
+
+import icon from '/vite.svg'
+
 export default function Navbar() {
     const buttonsData = [
-        { title: 'Test 1', link: '/lien-vers-test1' },
-        { title: 'Test 2', link: '/lien-vers-test2' },
-        { title: 'Test 3', link: '/lien-vers-test3' },
+        { title: 'Lien 1', link: '' },
+        { title: 'Lien 2', link: '' },
+        { title: 'Lien 3', link: '' },
     ];
 
     return (
         <nav>
-            <img src="" alt=""/>
+            <img src={icon} alt="Icon"/>
             <ul>
                 {buttonsData.map((button, index) => (
                     <li key={index}>

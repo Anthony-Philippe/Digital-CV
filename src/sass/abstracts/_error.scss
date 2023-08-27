@@ -1,0 +1,9 @@
+@mixin debug($type, $color: red, $zIndex: 100) {
+    @if $type == 'outline' { // @include debug('outline', blue, 100);
+        outline: 2px solid $color;
+        z-index: $zIndex;
+    } @else if $type == 'background' {
+        background-color: rgba($color, 0.05); // @include debug('background', green, 100);
+        z-index: $zIndex;
+    }
+}
