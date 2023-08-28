@@ -1,5 +1,3 @@
-import '../sass/components/footer.scss'
-
 import icon from '/vite.svg'
 
 import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa6'

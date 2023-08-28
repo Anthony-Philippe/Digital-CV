@@ -1,0 +1,45 @@
+@import '../abstracts/variables';
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+
+    ul {
+      display: flex
+    }
+    > {
+      img {
+        width: 4rem;
+        height: auto;
+        margin-right: auto
+      }
+      ul > li {
+        margin: 0 10px;
+  
+        > button {
+          padding: .6em 1.2em;
+          font-size: 1em;
+          font-weight: 500;
+          font-family: inherit;
+          cursor: pointer;
+          border-radius: 2px;
+          background: none;
+          color: $font-color__second;
+          transition: background-color .25s, color .25s
+        }
+        &:last-child {
+          > button {
+            background-color: $main-color__first;
+          }
+          > button:hover {
+            background-color: $main-color__second
+          }
+        }
+        > button:hover {
+          color: $font-color__first
+        }
+      }
+    }
+  }

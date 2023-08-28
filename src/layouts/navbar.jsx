@@ -1,5 +1,3 @@
-import '../sass/components/navbar.scss'
-
 import icon from '/vite.svg'
 
 export default function Navbar() {

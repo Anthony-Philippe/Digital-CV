@@ -1,4 +1,11 @@
-// Core files
+// Core styles
 @use "./core/general";
 @use "./core/reset";
 @use "./core/typography";
+
+// Layout styles
+@use "./layouts/footer";
+@use "./layouts/navbar";
+
+// Components styles
+@use "./components/hero"
