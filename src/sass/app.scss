@@ -2,3 +2,7 @@
 @use "./core/general";
 @use "./core/reset";
 @use "./core/typography";
+
+// Layout files
+@use "./layouts/navbar";
+@use "./layouts/footer";
