@@ -31,7 +31,7 @@ nav {
         }
         &:last-child {
           > button {
-            background-color: $main-color__first
+            background-color: $main-color__first;
           }
           > button:hover {
             background-color: $main-color__second
