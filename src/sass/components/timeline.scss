@@ -1,20 +1,5 @@
-$background-color: rgba(21, 23, 25, 1);
-$text-color: rgba(255, 255, 255, 0.87);
-
-$color-Primary: #7474ff;
-$color-Secondary: #5d5dff;
-
-// Timeline
-$color-start: rgb(68 68 68);
-$color-end: rgb(116, 116, 255);
-$color-end_Circle1: rgb(63, 63, 255);
-$color-end_Circle2: rgb(136, 136, 255);
-
-$connexion-heights: 100px 150px 300px;
-@mixin gradient($direction, $color1, $opacity1, $color2, $opacity2) {
-    $gradient: linear-gradient($direction, rgba($color1, $opacity1), rgba($color2, $opacity2));
-    background: $gradient;
-}
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
 
 //* TIMELINE | TIMELINE_CONTENT
 .timeline{
