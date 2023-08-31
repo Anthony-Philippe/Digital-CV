@@ -1,0 +1,99 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+//* TIMELINE | TIMELINE_CONTENT
+.timeline{
+    .connexion {
+      width: 1px;
+      &:first-child >.line {
+        height: nth($connexion-heights, 1);
+        @include gradient(to bottom, $color-start, 0, $color-start, 1)
+      }
+      &:not(:first-child, :last-child) .line{
+        height: nth($connexion-heights, 2);
+        border-left: 1px dashed rgb(68,68,68)
+      }
+      &:last-child .line {
+        height: nth($connexion-heights, 3);
+        @include gradient(to bottom, $color-end, 0.1, $color-end, 1)
+      }
+      .circle {
+        border-radius: 50%;
+        transform: translateX(calc(-50% + 0.5px));
+        margin-bottom: 8px
+      }
+      &:not(:last-child) .circle{
+        width: 10px;
+        height: 10px;
+        border: 1px solid rgb(68, 68, 68);
+        margin-top: 8px;
+        font-size: 0
+      }
+      &:last-child .circle {
+        width: 45px;
+        height: 45px;
+        @include gradient(to right, $color-end_Circle1, 1, $color-end_Circle2, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 1.1rem
+      }
+      &:last-child .text {
+        margin-top: -15px;
+        width: 250px;
+        height: 50px;
+        transform: translateX(-50%);
+        color: transparent;
+        @include gradient(to right, $color-end_Circle1, 1, $color-end_Circle2, 1);
+        background-clip: text;
+        -webkit-background-clip: text
+      }
+    }
+  }
+  
+  .timeline_Content {
+    display: flex;
+    margin-bottom: 50px;
+    .col{
+      flex: 1;
+      .content{
+        height: 350px;
+        line-height: 2rem;
+        h1{
+          font-size: 1.8rem;
+        }
+        h2{
+          font-size: 1.5rem;
+          text-transform: uppercase;
+        }
+        .info{
+          font-style: italic;
+          font-weight: 400;
+          opacity: .5;
+        }
+      }
+      &:nth-child(2){
+        display: flex;
+        justify-content: center;
+        h2 {
+            margin-top: 25px;
+        }
+      }
+      &:not(:nth-child(2)){
+        flex: 4;
+      }
+      &:first-child{
+        text-align: right;
+        .content:first-child {
+          margin-top: 100px;
+        }
+      }
+      &:last-child{
+        text-align: left;
+        .content:first-child {
+          margin-top: 275px;
+        }
+      }
+    }
+  }
