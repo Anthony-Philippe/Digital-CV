@@ -1,5 +1,7 @@
 import Tooltip from './tools/toolTip'
 
+import '../sass/components/caroussel.scss'
+
 const altStyles = {
   'VHDL': { transform: 'translateY(5px)' },
   'Packet Tracer': { transform: 'translateY(-10px)' },
