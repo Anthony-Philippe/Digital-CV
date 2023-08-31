@@ -1,8 +1,19 @@
+import illustration from '../assets/animated/404-error.svg'
+
+import Navbar from '../layouts/navbar/'
+
+import '../sass/components/error.scss'
+
 function Error() {
     return (
-        <div>
-            <h1>Oups 🙈 Cette page n'existe pas</h1>
-        </div>
+        <>
+            <Navbar />
+            <div className="error">
+                <div className="container">
+                    <img src={illustration} alt="404"/>
+                </div>
+            </div>
+        </>
     )
 }
  
