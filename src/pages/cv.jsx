@@ -3,6 +3,7 @@ import Footer from '../layouts/footer';
 
 import Timeline from '../components/timeline';
 import Caroussel from '../components/infinite_caroussel';
+
 import { formation_Data, codingIcon_Data } from '../data/cv'
 
 export default function Home() {
