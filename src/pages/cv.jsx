@@ -1,8 +1,8 @@
-import Navbar from '../layouts/navbar';
-import Footer from '../layouts/footer';
+import Navbar from '@layouts/navbar';
+import Footer from '@layouts/footer';
 
-import Timeline from '../components/timeline';
-import Caroussel from '../components/infinite_caroussel';
+import Timeline from '@components/timeline';
+import Caroussel from '@components/infinite_caroussel';
 
 import { formation_Data, codingIcon_Data } from '../data/cv'
 
