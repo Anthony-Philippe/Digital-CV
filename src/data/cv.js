@@ -28,4 +28,32 @@ const codingIcon_Data = [
     { src: 'code/octave.svg', alt: 'Octave' }
 ];
 
-export { formation_Data, codingIcon_Data };
+const softwareIcon_Data = [
+    { src: 'software/intellijIdea.svg', alt: 'IntellijIdea' },
+    { src: 'software/kicad.svg', alt: 'KiCad' },
+    { src: 'software/linux.svg', alt: 'Linux' },
+    { src: 'software/ubuntu.svg', alt: 'Ubuntu' },
+    { src: 'software/cisco.svg', alt: 'Packet Tracer' },
+    { src: 'software/nmap.svg', alt: 'Nmap' },
+    { src: 'software/virtualbox.svg', alt: 'Virtualbox' },
+    { src: 'software/wireshark.svg', alt: 'Wireshark' },
+    { src: 'software/vscode.svg', alt: 'VS Code' },
+    { src: 'software/qt.svg', alt: 'Qt Creator' },
+    { src: 'software/git.svg', alt: 'GIT' },
+    { src: 'software/github.svg', alt: 'GitHub' },
+    { src: 'software/3dsmax.svg', alt: '3ds Max' },
+    { src: 'software/blender-3d.svg', alt: 'Blender3D' },
+    { src: 'software/cinema.svg', alt: 'Cinema4D' },
+    { src: 'software/sketchup.svg', alt: 'Sketchup' },
+    { src: 'software/solidworks.svg', alt: 'SolidWorks' },
+    { src: 'software/zbrush.svg', alt: 'Zbrush' },
+    { src: 'software/after-effects.svg', alt: 'After Effects' },
+    { src: 'software/illustrator.svg', alt: 'Illustrator' },
+    { src: 'software/photoshop.svg', alt: 'Photoshop' },
+    { src: 'software/premierepro.svg', alt: 'Premiere Pro' },
+    { src: 'software/excel.svg', alt: 'Excel' },
+    { src: 'software/powerpoint.svg', alt: 'Powerpoint' },
+    { src: 'software/word.svg', alt: 'Word' }
+];
+
+export { formation_Data, codingIcon_Data, softwareIcon_Data };
