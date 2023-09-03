@@ -1,0 +1,63 @@
+@import '../abstracts/variables';
+
+//* BANNER | TOOLTIP |
+.slider_icon {
+    height: 10rem;
+    overflow: hidden;
+    margin: 0 -10rem;
+    position: relative;
+    img {
+      margin: 0 80px;
+      transition: all .6s ease;
+      &:last-of-type {
+        padding-left: 0
+      }
+      &:hover {
+        filter: drop-shadow(3px 5px 2px font-color__first);
+      }
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      height: 90%;
+      width: 12em;
+      pointer-events: none;
+      z-index: 1
+    }
+    &::before {
+      left: 0;
+      box-shadow: inset 75px 0 35px $dark-color__first
+    }
+    &::after {
+      right: 0;
+      box-shadow: inset -75px 0 35px $dark-color__first
+    }
+    .wrapper {
+      display: flex
+    }
+    section {
+      display: flex;
+      animation: scroll-left var(--speed) linear infinite
+    }
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%)
+    }
+    100% {
+      transform: translateX(-100%)
+    }
+  }
+  
+  .tooltip {
+    position: relative;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: $main-color__first;
+    visibility: hidden;
+    text-transform: uppercase;
+    top: 100%
+  }
