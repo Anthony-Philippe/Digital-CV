@@ -2,8 +2,8 @@ import illustration from '../assets/animated/cat-astronaut.svg'
 
 export default function Hero() {
     const Datas = [
-        { content: 'DindonDesAlpes' },
-        { content: 'Texte pour le paragraphe hehe' }
+        { content: 'Anthony Philippe' },
+        { content: 'Premier projet React - Vite.JS' }
     ];
 
     const title = Datas[0]?.content;
