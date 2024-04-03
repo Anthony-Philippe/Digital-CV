@@ -3,7 +3,7 @@ import illustration from '../assets/animated/cat-astronaut.svg'
 export default function Hero() {
     const Datas = [
         { content: 'Anthony Philippe' },
-        { content: 'Premier projet React - Vite.JS' }
+        { content: 'CV numérique' }
     ];
 
     const title = Datas[0]?.content;
