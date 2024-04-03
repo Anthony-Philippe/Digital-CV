@@ -5,7 +5,7 @@ import icon from '/vite.svg';
 export default function Navbar() {
     const Datas = [
         { title: 'CV', link: '/cv' },
-        { title: 'Project', link: '' },
+        { title: 'Project', link: '/project' },
         { title: 'Home', link: '/' },
     ];
 

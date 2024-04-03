@@ -1,7 +1,5 @@
 import Tooltip from './tools/toolTip'
 
-import { useEffect, useState } from 'react';
-
 import '../sass/components/caroussel.scss'
 
 const altStyles = {
