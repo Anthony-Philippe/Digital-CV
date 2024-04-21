@@ -8,7 +8,7 @@ const Connexion = ({ isLast, isSingle, circleContent, part }) => {
     </div>
   );
 };
-  
+
 export default function Vertical_Line({ numberOfConnections, Part, circleContent }) {
   return (
     <div className="timeline">

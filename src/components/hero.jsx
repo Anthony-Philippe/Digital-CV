@@ -3,7 +3,7 @@ import illustration from '../assets/animated/cat-astronaut.svg'
 export default function Hero() {
     const Datas = [
         { content: 'Anthony Philippe' },
-        { content: 'CV numérique' }
+        { content: 'CV Digital' }
     ];
 
     const title = Datas[0]?.content;
@@ -12,9 +12,9 @@ export default function Hero() {
     return (
         <div className="hero">
             <div className="container">
-            <h1>{title}</h1>
+                <h1>{title}</h1>
                 <p>{paragraph}</p>
-                <img src={illustration} alt="Cat"/>
+                <img src={illustration} alt="Cat" />
             </div>
         </div>
     );

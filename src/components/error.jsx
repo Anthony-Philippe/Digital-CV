@@ -7,11 +7,11 @@ function Error() {
         <>
             <div className="error">
                 <div className="container">
-                    <img src={illustration} alt="404"/>
+                    <img src={illustration} alt="404" />
                 </div>
             </div>
         </>
     )
 }
- 
+
 export default Error

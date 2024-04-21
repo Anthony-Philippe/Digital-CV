@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <nav>
-            <img src={icon} alt="Icon"/>
+            <img src={icon} alt="Icon" />
             <ul>
                 {Datas.map((button, index) => (
                     <li key={index}>

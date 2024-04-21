@@ -20,7 +20,7 @@ const renderLogosWithTooltips = (logos) => (
   })
 );
 
-export default function infinite_Caroussel({ iconSource, speed}) {
+export default function infinite_Caroussel({ iconSource, speed }) {
   const calculatedSpeed = speed ?? iconSource.length / 0.5;
 
   const sections = Array.from({ length: 3 }, (_, index) => (
@@ -28,7 +28,7 @@ export default function infinite_Caroussel({ iconSource, speed}) {
       {renderLogosWithTooltips(iconSource)}
     </section>
   ));
-    
+
   return (
     <div className="slider_icon">
       <div className="wrapper">

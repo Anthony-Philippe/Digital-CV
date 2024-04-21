@@ -1,7 +1,7 @@
 import projectData from '../data/project.json';
 
 export default function Project() {
-    const {  } = projectData;
+    const { } = projectData;
 
     return (
         <>

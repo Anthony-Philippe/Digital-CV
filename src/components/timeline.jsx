@@ -6,13 +6,13 @@ import '../sass/components/timeline.scss'
 
 function renderColumnData(data) {
   return data.map((item, index) => (
-      <div className="content" key={index}>
-        <h1>{item.year}</h1>
-        <h2>{item.title}</h2>
-        <p>{item.desc}</p>
-        <a>{item.sub}</a>
-        <p className="info">{item.info}</p>
-      </div>
+    <div className="content" key={index}>
+      <h1>{item.year}</h1>
+      <h2>{item.title}</h2>
+      <p>{item.desc}</p>
+      <a>{item.sub}</a>
+      <p className="info">{item.info}</p>
+    </div>
   ))
 }
 
@@ -24,15 +24,15 @@ export default function Timeline({ Datas, Part, circleContent }) {
 
   return (
     <div className="timeline_Content">
-        <div className="col">
-          {renderColumnData(column1Data)}
-        </div>
-        <div className="col">
-          <Vertical_Line numberOfConnections={numberOfConnections} Part={Part} circleContent={circleContent} />
-        </div>
-        <div className="col">
-          {renderColumnData(column3Data)}
-        </div>
+      <div className="col">
+        {renderColumnData(column1Data)}
+      </div>
+      <div className="col">
+        <Vertical_Line numberOfConnections={numberOfConnections} Part={Part} circleContent={circleContent} />
+      </div>
+      <div className="col">
+        {renderColumnData(column3Data)}
+      </div>
     </div>
   );
 }
