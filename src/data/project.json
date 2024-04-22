@@ -1,7 +1,54 @@
 {
-   "section": {
-      "title": "Section",
-      "type": "string",
-      "description": "The section of the page where the ad is placed."
-   }
+   "scolaire_Data": [
+      {
+         "period": "",
+         "activity": "",
+         "sub": "",
+         "organization": "",
+         "info": {
+            "1": ""
+         },
+         "place": {
+            "1": ""
+         }
+      },
+      {
+         "period": "",
+         "activity": "",
+         "sub": "",
+         "organization": "",
+         "info": {
+            "1": ""
+         },
+         "place": {
+            "1": ""
+         }
+      }
+   ],
+   "personnel_Data": [
+      {
+         "period": "",
+         "activity": "",
+         "sub": "",
+         "organization": "",
+         "info": {
+            "1": ""
+         },
+         "place": {
+            "1": ""
+         }
+      },
+      {
+         "period": "",
+         "activity": "",
+         "sub": "",
+         "organization": "",
+         "info": {
+            "1": ""
+         },
+         "place": {
+            "1": ""
+         }
+      }
+   ]
 }

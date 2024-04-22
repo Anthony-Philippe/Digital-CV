@@ -1,84 +1,139 @@
 {
    "formation_Data": [
       {
-         "year": "2022 ➜ 2024",
-         "title": "Cycle Ingénieur Informatique Option Développement-Logiciel",
-         "desc": "Institut Supérieur de l'Electronique et du Numérique",
-         "info": "Isen Méditerranée, Toulon"
+         "period": "2022 ➜ 2024",
+         "activity": "Cycle Ingénieur en Informatique",
+         "sub": "Option Développement-Logiciel et Cloud Computing",
+         "organization": "Institut Supérieur de l'Electronique et du Numérique",
+         "info": {
+            "1": "C, Java, Kotlin, C++, Python, React, Angular, Rust",
+            "2": "Ingénierie logicielle",
+            "3": "Sécurité logiciel et cryptographie",
+            "4": "IA et Machine Learning"
+         },
+         "place": {
+            "1": "ISEN Méditerranée",
+            "2": "Toulon"
+         }
       },
       {
-         "year": "2022",
-         "title": "Semestre à l’étranger dans le cadre de mes études",
-         "desc": "Faculty of Computer Science and Information Technology",
-         "info": "University Putra Malaysia, Seri Kembangan, Malaisie"
+         "period": "2022",
+         "activity": "Semestre à l’étranger",
+         "organization": "Faculty of Computer Science and Information Technology",
+         "info": {
+            "1": "Data-mining",
+            "2": "Programmation (Python et C++)",
+            "3": "Sécurité des systèmes d'information (Cryptographie)",
+            "4": "Securité logiciel et de base de données"
+         },
+         "place": {
+            "1": "University Putra Malaysia",
+            "2": "Seri Kembangan",
+            "3": "Malaisie"
+         }
       },
       {
-         "year": "2019 ➜ 2022",
-         "title": "Classe Préparatoire Intégrée Cycle d’expertise Informatique et Numérique (Spé. WEBDEV)",
-         "desc": "Institut Supérieur de l'Electronique et du Numérique",
-         "info": "Isen Méditerranée, Toulon"
+         "period": "2019 ➜ 2022",
+         "activity": "Classe Préparatoire Intégrée",
+         "sub": "Cycle d’expertise Informatique et Numérique (Spé. WEBDEV)",
+         "organization": "Institut Supérieur de l'Electronique et du Numérique",
+         "info": {
+            "1": "Développement d'applications web",
+            "2": "Programmation (POO, Java, C, WEB, SQL)",
+            "3": "Sciences appliquées (Maths, Physique, Electronique)"
+         },
+         "place": {
+            "1": "ISEN Méditerranée",
+            "2": "Toulon"
+         }
       }
    ],
    "experience_Data": [
       {
-         "year": "2023 ➜ 2024",
-         "title": "Responsable Communication",
-         "desc": "ISEN Studio",
-         "info": "Association étudiante",
-         "sub": "Gestion du Portofolio et des réseaux sociaux. Communication sur les évènements de l’école"
+         "period": "2023 ➜ 2024",
+         "activity": "Responsable Communication",
+         "organization": "ISEN Studio",
+         "sub2": "Gestion du Portofolio et des réseaux sociaux. Communication sur les évènements de l’école",
+         "info": {
+            "1": "Gestion des réseaux sociaux",
+            "2": "Communication sur les évènements de l’école",
+            "3": "Gestion du Portofolio de l’association"
+         },
+         "place": {
+            "1": "ISEN Méditerranée",
+            "2": "Toulon"
+         }
       },
       {
-         "year": "2019 ➜ 2020",
-         "title": "Bénévole Etudiant",
-         "desc": "Les Petits frères des Pauvres",
-         "info": "ISEN-Partage, Toulon",
-         "sub": "Cours d’informatique à des personnes isolées en demande de liens sociaux"
+         "period": "2019 ➜ 2020",
+         "activity": "Bénévole Etudiant",
+         "organization": "ISEN Partage",
+         "info": {
+            "1": "Cours d’informatique à des personnes isolées en demande de liens sociaux",
+            "2": "Gestion de projet",
+            "3": "Sécurité des systèmes d'information"
+         },
+         "place": {
+            "1": "Les Petits-frères-des-Pauvres",
+            "2": "Toulon"
+         }
       },
       {
-         "year": "2017 ➜ 2019",
-         "title": "Vice-Président",
-         "desc": "OCTAL-SYSTEM",
-         "info": "Association à but non lucratif",
-         "sub": "Animation d'évènements porté sur les jeux-vidéos et organisation de concours et de compétitions en ligne"
+         "period": "2017 ➜ 2019",
+         "activity": "Vice-Président",
+         "organization": "OCTAL-SYSTEM",
+         "info": {
+            "1": "Animation d'évènements porté sur les jeux-vidéos",
+            "2": "Organisation de concours et de compétitions en ligne",
+            "3": "Gestion d'équipe d'une vingtaine de personnes"
+         },
+         "place": {
+            "1": "France"
+         }
       },
       {
-         "year": "Juin 2017",
-         "title": "évènement Humanitaire",
-         "desc": "Projet “Anne Caudry”",
-         "info": "Membre de l'équipe d'organisation de l'évènement",
-         "sub": "Projet ayant pour objectif la récolte de dons pour la lutte contre le sida"
+         "period": "Juin 2017",
+         "activity": "évènement Humanitaire",
+         "organization": "Projet “Anne Caudry”",
+         "info": {
+            "1": "Projet ayant pour objectif la récolte de dons pour la lutte contre le sida",
+            "2": "Membre de l'équipe d'organisation de l'évènement"
+         },
+         "place": {
+            "1": "France"
+         }
       }
    ],
    "Competence_Data": [
       {
-         "title": "Anglais",
-         "desc": "- B2"
+         "activity": "Anglais",
+         "organization": "- B2"
       },
       {
-         "title": "Espagnol",
-         "desc": "- B1"
+         "activity": "Espagnol",
+         "organization": "- B1"
       },
       {
-         "title": "Français",
-         "desc": "- Maternel"
+         "activity": "Français",
+         "organization": "- Maternel"
       },
       {
-         "title": "Dynamisme"
+         "activity": "Dynamisme"
       },
       {
-         "title": "Travail d'équipe"
+         "activity": "Travail d'équipe"
       },
       {
-         "title": "Adaptabilité"
+         "activity": "Adaptabilité"
       },
       {
-         "title": "1erg"
+         "activity": "1erg"
       },
       {
-         "title": "2ezgd"
+         "activity": "2ezgd"
       },
       {
-         "title": "3egd"
+         "activity": "3egd"
       }
    ]
 }
