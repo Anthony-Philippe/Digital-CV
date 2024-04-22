@@ -4,8 +4,8 @@ import icon from '/vite.svg';
 
 export default function Navbar() {
     const Datas = [
-        { title: 'CV', link: '/cv' },
-        { title: 'Project', link: '/project' },
+        { title: 'CV', link: '/Cv' },
+        { title: 'Project', link: '/Project' },
         { title: 'Home', link: '/' },
     ];
 
@@ -16,11 +16,7 @@ export default function Navbar() {
                 {Datas.map((button, index) => (
                     <li key={index}>
                         <button>
-                            {index === Datas.length - 1 ? (
-                                <Link to={button.link}>{button.title}</Link>
-                            ) : (
-                                <a href={button.link}>{button.title}</a>
-                            )}
+                            <Link to={button.link}>{button.title}</Link>
                         </button>
                     </li>
                 ))}
