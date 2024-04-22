@@ -76,7 +76,7 @@
           color: transparent;
           @include gradient(to right, $color-end_Circle1, 1, $color-end_Circle2, 1);
           background-clip: text;
-          -webkit-background-clip: text
+          -webkit-background-clip: text;
         }
         .info {
           font-size: .9rem;

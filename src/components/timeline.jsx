@@ -24,6 +24,7 @@ function renderColumnData(data, columnType) {
           ))}
         </div>
       )}
+      {item.link && <a href={item.link} className='colored' target='_blank'>→ Repository GitHub</a>}
     </div>
   ))
 }

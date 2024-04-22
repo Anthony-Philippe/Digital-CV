@@ -1,53 +1,107 @@
 {
    "scolaire_Data": [
       {
-         "period": "",
-         "activity": "",
-         "sub": "",
-         "organization": "",
+         "period": "2023 → 2024",
+         "activity": "Projet Technique M1",
+         "sub": "Application de recommandation croisée à partir d'analyse vidéo des émotions utilisant l'intelligence artificielle",
+         "organization": "RankItAll",
          "info": {
-            "1": ""
+            "1": "Node-JS, React-native, Expo",
+            "2": "Typescript, Python, Jest",
+            "3": "Firebase, Firestore, Cloud Run",
+            "4": "Git, Docker"
          },
          "place": {
-            "1": ""
+            "1": "2e année de cycle ingénieur à l'ISEN Méditerranée"
          }
       },
       {
-         "period": "",
+         "period": "Mars 2023",
          "activity": "",
-         "sub": "",
-         "organization": "",
+         "sub": "Application mobile de gestion de station de ski",
+         "organization": "Moutain Minder",
          "info": {
-            "1": ""
+            "1": "Firebase + Realtime Database",
+            "2": "Kotlin, Android Studio, Jetpack Compose"
          },
          "place": {
-            "1": ""
+            "1": "2e année de cycle ingénieur à l'ISEN Méditerranée"
+         },
+         "link": "https://github.com/Anthony-Philippe/MountainMinder.git"
+      },
+      {
+         "period": "Juin 2023",
+         "activity": "GarageWeek 2023",
+         "sub": "Semelle sportive connectée pour le centre de formation du RCT afin de collecter et analyser des données d'entrainement pour améliorer les performances des Rugbyman",
+         "organization": "PlaySole",
+         "info": {
+            "1": "Java, Gradle, TailwindCSS, PostgreSQL",
+            "2": "Arduino, KiCad, Impréssion 3D"
+         },
+         "place": {
+            "1": "1er année de cycle ingénieur à l'ISEN Méditerranée"
+         }
+      },
+      {
+         "period": "Décembre 2022",
+         "activity": "Projet d'informatique",
+         "sub": "Développement d'un jeu de Othello en C avec une interface graphique et un mode multijoueur ou contre une IA",
+         "organization": "Othello game",
+         "info": {
+            "1": "C, SDL2",
+            "2": "Gestion de mémoire"
+         },
+         "place": {
+            "1": "1er année de cycle ingénieur à l'ISEN Méditerranée"
+         },
+         "link": "https://github.com/Anthony-Philippe/Othello-Game.git"
+      },
+      {
+         "period": "Mai 2022",
+         "activity": "Projet de machine learning",
+         "sub": "Développement d'un algorithme de prédiction du cours du Bitcoin à partir de données historiques et de l'actualité",
+         "organization": "Bitcoin's Prediction",
+         "info": {
+            "1": "Python, Pandas, Numpy, Matplotlib",
+            "2": "Scikit-learn, Tensorflow, Keras"
+         },
+         "place": {
+            "1": "Semestre à l'étranger à l'université Putra Malaysia en Malaisie"
          }
       }
    ],
    "personnel_Data": [
       {
-         "period": "",
-         "activity": "",
-         "sub": "",
-         "organization": "",
+         "period": "Août 2023",
+         "activity": "Application Web",
+         "sub": "Réalisation de mon CV numérique pour l'apprentissage de React",
+         "organization": "CV Digital",
          "info": {
-            "1": ""
+            "1": "React, Vite-JS, Javascript",
+            "2": "SCSS, ESLint"
          },
-         "place": {
-            "1": ""
+         "link": "https://github.com/Anthony-Philippe/Digital-CV.git"
+      },
+      {
+         "period": "Juillet 2023",
+         "activity": "Prototype de logiciel",
+         "sub": "Développement d'un logiciel de gestion bancaire pour la gestion de compte et de transaction",
+         "organization": "Bank Manager",
+         "info": {
+            "1": "C++, Qt, SDL2",
+            "2": "Programmation orientée objet",
+            "3": "Sécurité et cryptographie (RSA)"
          }
       },
       {
-         "period": "",
-         "activity": "",
-         "sub": "",
-         "organization": "",
+         "period": "Mars 2023",
+         "activity": "Jeu vidéo",
+         "sub": "Développent d'une imitation d'un niveau de super mario bros",
+         "organization": "Super Mario Bros",
          "info": {
-            "1": ""
-         },
-         "place": {
-            "1": ""
+            "1": "C, SDL2",
+            "2": "Gestion de mémoire",
+            "3": "Sprites et animations, collisions"
          }
       }
    ]

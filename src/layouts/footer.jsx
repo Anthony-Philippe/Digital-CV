@@ -5,9 +5,9 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa6'
 export default function Footer() {
   const socialLinks = [
     { href: "lien_vers_facebook", icon: <FaFacebook />, label: "Facebook" },
-    { href: "lien_vers_linkedin", icon: <FaLinkedin />, label: "LinkedIn" },
-    { href: "https://www.instagram.com/an1hoph/", icon: <FaInstagram />, label: "Instagram" },
-    { href: "lien_vers_github", icon: <FaGithub />, label: "GitHub" },
+    { href: "https://www.linkedin.com/in/anthony--philippe", icon: <FaLinkedin />, label: "LinkedIn" },
+    { href: "lien_vers_instagram", icon: <FaInstagram />, label: "Instagram" },
+    { href: "https://github.com/Anthony-Philippe", icon: <FaGithub />, label: "GitHub" },
   ];
 
   const SocialLink = ({ href, children }) => (
