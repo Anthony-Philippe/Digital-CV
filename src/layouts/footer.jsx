@@ -20,7 +20,7 @@ export default function Footer() {
     <footer>
       <section>
         <img src={icon} alt="Icon" />
-        <p>DindonDesAlpes</p>
+        <p>Anthony Philippe</p>
       </section>
       <section>
         {socialLinks.map((link, index) => (
