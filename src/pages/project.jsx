@@ -1,17 +1,17 @@
 import Timeline from '@components/timeline';
 import Caroussel from '@components/infinite_caroussel';
 
-import cvData from '../data/cv.json';
+import projectData from '../data/project.json';
 import iconData from '../data/icon.json';
 
-export default function Cv() {
-    const { formation_Data, experience_Data } = cvData;
+export default function Project() {
+    const { scolaire_Data, personnel_Data } = projectData;
 
     return (
         <>
-            <Timeline Datas={formation_Data} Part="Formations" circleContent="1" />
+            <Timeline Datas={scolaire_Data} Part="Scolaire" circleContent="1" />
             <Caroussel iconSource={iconData.codingIcon_Data} />
-            <Timeline Datas={experience_Data} Part="Expériences" circleContent="2" />
+            <Timeline Datas={personnel_Data} Part="Personnel" circleContent="2" />
             <Caroussel iconSource={iconData.softwareIcon_Data} />
         </>
     );

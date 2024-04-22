@@ -59,6 +59,7 @@
       flex: 1;
       .content{
         height: 350px;
+        width: 500px;
         line-height: 2rem;
         h1{
           font-size: 1.8rem;
@@ -67,10 +68,37 @@
           font-size: 1.5rem;
           text-transform: uppercase;
         }
-        .info{
-          font-style: italic;
+        h3{
           font-weight: 400;
-          opacity: .5;
+          opacity: .8;
+        }
+        .colored{
+          color: transparent;
+          @include gradient(to right, $color-end_Circle1, 1, $color-end_Circle2, 1);
+          background-clip: text;
+          -webkit-background-clip: text;
+        }
+        .info {
+          font-size: .9rem;
+          font-weight: 700;
+          line-height: 1.5rem;
+        }
+        .bullet-start::before {
+          content: '■ ';
+        }
+        .bullet-end::after {
+          content: ' ■';
+        }
+        .place {
+          flex-wrap: wrap;
+          span {
+            margin-right: .5rem;
+          }
+          .text {
+            font-style: italic;
+            font-weight: 400;
+            opacity: .5;
+          }
         }
       }
       &:nth-child(2){

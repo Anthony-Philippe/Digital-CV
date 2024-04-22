@@ -1,299 +1,139 @@
 {
-  "codingIcon_Data":[
-     {
-        "src":"c.svg",
-        "alt":"C"
-     },
-     {
-        "src":"code/c++.svg",
-        "alt":"C++"
-     },
-     {
-        "src":"code/python.svg",
-        "alt":"Python"
-     },
-     {
-        "src":"code/html5.svg",
-        "alt":"HTML"
-     },
-     {
-        "src":"code/css3.svg",
-        "alt":"CSS"
-     },
-     {
-        "src":"code/bootstrap.svg",
-        "alt":"BootstrapS"
-     },
-     {
-        "src":"code/tailwind.svg",
-        "alt":"Tailwind"
-     },
-     {
-        "src":"code/javascript.svg",
-        "alt":"JS"
-     },
-     {
-        "src":"code/nodejs.svg",
-        "alt":"Node-JS"
-     },
-     {
-        "src":"code/react.svg",
-        "alt":"React"
-     },
-     {
-        "src":"code/php.svg",
-        "alt":"PHP"
-     },
-     {
-        "src":"code/java.svg",
-        "alt":"Java"
-     },
-     {
-        "src":"code/kotlin.svg",
-        "alt":"Kotlin"
-     },
-     {
-        "src":"code/gradle.svg",
-        "alt":"Gradle"
-     },
-     {
-        "src":"code/spring.svg",
-        "alt":"Spring"
-     },
-     {
-        "src":"code/postgresql.svg",
-        "alt":"PostgreSQL"
-     },
-     {
-        "src":"code/microsoft-sql-server.svg",
-        "alt":"SQL"
-     },
-     {
-        "src":"code/arduino.svg",
-        "alt":"Arduino"
-     },
-     {
-        "src":"code/xilinx.svg",
-        "alt":"VHDL"
-     },
-     {
-        "src":"code/stm.svg",
-        "alt":"STM32"
-     },
-     {
-        "src":"code/octave.svg",
-        "alt":"Octave"
-     }
-  ],
-  "formation_Data":[
-     {
-        "year":"2022 ➜ 2023",
-        "title":"école d'ingénieur en big data",
-        "desc":"Institut Supérieur de l'Electronique et du Numérique",
-        "info":"ISEN Méditerranée, Toulon, 83000"
-     },
-     {
-        "year":"2022",
-        "title":"semestre à l'étranger en Malaisie",
-        "desc":"Faculté d'informatique et des technologies de l'information",
-        "info":"Universiti Putra Malaysia, Seri Kembangan, Malaisie"
-     },
-     {
-        "year":"2019 ➜ 2022",
-        "title":"cycle d'informatique et de numérique",
-        "desc":"Institut Supérieur de l'Electronique et du Numérique",
-        "info":"ISEN Méditerranée, Toulon, 83000"
-     }
-  ],
-  "softwareIcon_Data":[
-     {
-        "src":"software/intellijIdea.svg",
-        "alt":"IntellijIdea"
-     },
-     {
-        "src":"software/kicad.svg",
-        "alt":"KiCad"
-     },
-     {
-        "src":"software/linux.svg",
-        "alt":"Linux"
-     },
-     {
-        "src":"software/ubuntu.svg",
-        "alt":"Ubuntu"
-     },
-     {
-        "src":"software/cisco.svg",
-        "alt":"Packet Tracer"
-     },
-     {
-        "src":"software/nmap.svg",
-        "alt":"Nmap"
-     },
-     {
-        "src":"software/virtualbox.svg",
-        "alt":"Virtualbox"
-     },
-     {
-        "src":"software/wireshark.svg",
-        "alt":"Wireshark"
-     },
-     {
-        "src":"software/vscode.svg",
-        "alt":"VS Code"
-     },
-     {
-        "src":"software/qt.svg",
-        "alt":"Qt Creator"
-     },
-     {
-        "src":"software/git.svg",
-        "alt":"GIT"
-     },
-     {
-        "src":"software/github.svg",
-        "alt":"GitHub"
-     },
-     {
-        "src":"software/3dsmax.svg",
-        "alt":"3ds Max"
-     },
-     {
-        "src":"software/blender-3d.svg",
-        "alt":"Blender3D"
-     },
-     {
-        "src":"software/cinema.svg",
-        "alt":"Cinema4D"
-     },
-     {
-        "src":"software/sketchup.svg",
-        "alt":"Sketchup"
-     },
-     {
-        "src":"software/solidworks.svg",
-        "alt":"SolidWorks"
-     },
-     {
-        "src":"software/zbrush.svg",
-        "alt":"Zbrush"
-     },
-     {
-        "src":"software/after-effects.svg",
-        "alt":"After Effects"
-     },
-     {
-        "src":"software/illustrator.svg",
-        "alt":"Illustrator"
-     },
-     {
-        "src":"software/photoshop.svg",
-        "alt":"Photoshop"
-     },
-     {
-        "src":"software/premierepro.svg",
-        "alt":"Premiere Pro"
-     },
-     {
-        "src":"software/excel.svg",
-        "alt":"Excel"
-     },
-     {
-        "src":"software/powerpoint.svg",
-        "alt":"Powerpoint"
-     }
-  ],
-  "experience_Data":[
-     {
-        "year":"2021",
-        "title":"trésorier association étudiante",
-        "desc":"Club de cinématographie, membre du bureau des Arts",
-        "info":"ISEN Méditerranée, Toulon, 83000",
-        "sub":"Débat et analyse d'œuvre cinématographique"
-     },
-     {
-        "year":"2020 ➜ 2021",
-        "title":"bénévole association étudiante",
-        "desc":"Les-Petits-Frères-Des-Pauvres",
-        "info":"ISEN-Partage, Toulon, 83000",
-        "sub":"Cours d'informatique à des personnes isolées en demande de liens sociaux"
-     },
-     {
-        "year":"2017 ➜ 2019",
-        "title":"Vice-Président OCTAL-SYSTEM",
-        "desc":"Association à but non lucratif",
-        "sub":"Organisation et animation d'évènements de jeux-vidéos et de concours"
-     },
-     {
-        "year":"2018",
-        "title":"bénévole évènement caritatif",
-        "desc":"Project ANNE CAUDRY",
-        "info":"Membre de l'équipe d'organisation",
-        "sub":"Évènement ayant pour objectif la récolte de dons pour la lutte contre le SIDA"
-     }
-  ],
-  "Competence_Data":[
-     {
-        "title":"Anglais",
-        "desc":"- B2"
-     },
-     {
-        "title":"Espagnol",
-        "desc":"- B1"
-     },
-     {
-        "title":"Français",
-        "desc":"- Maternel"
-     },
-     {
-        "title":"Dynamisme"
-     },
-     {
-        "title":"Travail d'équipe"
-     },
-     {
-        "title":"Adaptabilité"
-     },
-     {
-        "title":"1erg"
-     },
-     {
-        "title":"2ezgd"
-     },
-     {
-        "title":"3egd"
-     }
-  ],
-  "sections_Data":[
-     {
-        "citation":"More speed. Less spend",
-        "title":"Plongée en apnée",
-        "description":"Je pratique l'apnée statique et dynamique depuis 2019",
-        "items":[
-           "Statique: 4 minutes 18 secondes",
-           "Dynamique: 7x 10 mètres",
-           "Profondeur: 20 mètres"
-        ]
-     },
-     {
-        "citation":"More speed. Less spend",
-        "title":"Cinématographie",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "items":[
-           "Critiques d'œuvres: 10 050+",
-           "Films visionnés: 1 200+",
-           "Séries visionnées: 475+"
-        ]
-     },
-     {
-        "citation":"More speed. Less spend",
-        "title":"Running / Trail",
-        "description":"Je pratique la course à pied quotidiennement, la plupart du temps en forêt ou en montagne",
-        "items":[
-           "Duis aute irure dolor in reprehenderit",
-           "Excepteur sint occaecat",
-           "Amet consectetur adipiscing elit"
-        ]
-     }
-  ]
+   "formation_Data": [
+      {
+         "period": "2022 ➜ 2024",
+         "activity": "Cycle Ingénieur en Informatique",
+         "sub": "Option Développement-Logiciel et Cloud Computing",
+         "organization": "Institut Supérieur de l'Electronique et du Numérique",
+         "info": {
+            "1": "C, Java, Kotlin, C++, Python, React, Angular, Rust",
+            "2": "Ingénierie logicielle",
+            "3": "Sécurité logiciel et cryptographie",
+            "4": "IA et Machine Learning"
+         },
+         "place": {
+            "1": "ISEN Méditerranée",
+            "2": "Toulon"
+         }
+      },
+      {
+         "period": "2022",
+         "activity": "Semestre à l’étranger",
+         "organization": "Faculty of Computer Science and Information Technology",
+         "info": {
+            "1": "Data-mining",
+            "2": "Programmation (Python et C++)",
+            "3": "Sécurité des systèmes d'information (Cryptographie)",
+            "4": "Securité logiciel et de base de données"
+         },
+         "place": {
+            "1": "University Putra Malaysia",
+            "2": "Seri Kembangan",
+            "3": "Malaisie"
+         }
+      },
+      {
+         "period": "2019 ➜ 2022",
+         "activity": "Classe Préparatoire Intégrée",
+         "sub": "Cycle d’expertise Informatique et Numérique (Spé. WEBDEV)",
+         "organization": "Institut Supérieur de l'Electronique et du Numérique",
+         "info": {
+            "1": "Développement d'applications web",
+            "2": "Programmation (POO, Java, C, WEB, SQL)",
+            "3": "Sciences appliquées (Maths, Physique, Electronique)"
+         },
+         "place": {
+            "1": "ISEN Méditerranée",
+            "2": "Toulon"
+         }
+      }
+   ],
+   "experience_Data": [
+      {
+         "period": "2023 ➜ 2024",
+         "activity": "Responsable Communication",
+         "organization": "ISEN Studio",
+         "sub2": "Gestion du Portofolio et des réseaux sociaux. Communication sur les évènements de l’école",
+         "info": {
+            "1": "Gestion des réseaux sociaux",
+            "2": "Communication sur les évènements de l’école",
+            "3": "Gestion du Portofolio de l’association"
+         },
+         "place": {
+            "1": "ISEN Méditerranée",
+            "2": "Toulon"
+         }
+      },
+      {
+         "period": "2019 ➜ 2020",
+         "activity": "Bénévole Etudiant",
+         "organization": "ISEN Partage",
+         "info": {
+            "1": "Cours d’informatique à des personnes isolées en demande de liens sociaux",
+            "2": "Gestion de projet",
+            "3": "Sécurité des systèmes d'information"
+         },
+         "place": {
+            "1": "Les Petits-frères-des-Pauvres",
+            "2": "Toulon"
+         }
+      },
+      {
+         "period": "2017 ➜ 2019",
+         "activity": "Vice-Président",
+         "organization": "OCTAL-SYSTEM",
+         "info": {
+            "1": "Animation d'évènements porté sur les jeux-vidéos",
+            "2": "Organisation de concours et de compétitions en ligne",
+            "3": "Gestion d'équipe d'une vingtaine de personnes"
+         },
+         "place": {
+            "1": "France"
+         }
+      },
+      {
+         "period": "Juin 2017",
+         "activity": "évènement Humanitaire",
+         "organization": "Projet “Anne Caudry”",
+         "info": {
+            "1": "Projet ayant pour objectif la récolte de dons pour la lutte contre le sida",
+            "2": "Membre de l'équipe d'organisation de l'évènement"
+         },
+         "place": {
+            "1": "France"
+         }
+      }
+   ],
+   "Competence_Data": [
+      {
+         "activity": "Anglais",
+         "organization": "- B2"
+      },
+      {
+         "activity": "Espagnol",
+         "organization": "- B1"
+      },
+      {
+         "activity": "Français",
+         "organization": "- Maternel"
+      },
+      {
+         "activity": "Dynamisme"
+      },
+      {
+         "activity": "Travail d'équipe"
+      },
+      {
+         "activity": "Adaptabilité"
+      },
+      {
+         "activity": "1erg"
+      },
+      {
+         "activity": "2ezgd"
+      },
+      {
+         "activity": "3egd"
+      }
+   ]
 }
